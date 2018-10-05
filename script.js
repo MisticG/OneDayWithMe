@@ -1,7 +1,4 @@
-
-    
-
-var chgButton = document.getElementById("myButton");    
+  
 
 function changeButton() {
     
@@ -9,7 +6,6 @@ function changeButton() {
 
     var image = document.getElementById("image");
     
-    console.log(image)
     
     if(chgButton.value == "Tuy-Vi kl 8." ) {
         chgButton.value = "Tuy-Vi kl 12.";
@@ -23,9 +19,6 @@ function changeButton() {
         chgButton.value = "Tuy-Vi kl 8.";
         image.src = "OnWayToSchool.gif"
     }
-
-
-    console.log(chgButton.value);
 
 };
 
